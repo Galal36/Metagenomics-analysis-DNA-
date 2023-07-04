@@ -1,1 +1,11 @@
+The "merge.files" command serves the purpose of concatenating multiple files and generating a consolidated output in the form of a new file. This functionality proves particularly beneficial when dealing with the merging of diverse file formats, such as fasta-formatted sequence files, 454 quality files, group files, name files, or any other compatible file types.
 
+Executing the "merge.files" command necessitates the specification of the input files to be merged, separated by hyphens, along with the name file to which the merged contents should be written. The merging process adheres to the order in which the input files are provided. To illustrate the utilization of this command, consider the following example:
+mothur > merge.files(input=fileA-fileB-fileC, output=fileABC)
+
+
+In an alternative approach, the merge.files command offers the capability to amalgamate the data contained within fasta, taxonomy, name, or count files, resulting in the creation of a novel fasta file that consolidates the information from these sources.
+mothur > merge.files(fasta=final.fasta, count=final.count_table, taxonomy=final.taxonomy)
+
+To seamlessly merge SFF files, one can effortlessly accomplish this task by executing a specific command utilizing the executable provided by 454.
+sfffile -o combined.sff infile1.sff infile2.sff
