@@ -1,5 +1,7 @@
 # Metagenomics-analysis-DNA-
-This metagenomics analysis's purpose is to explain the most common types of bacteria spread in ruminants.
+This metagenomics analysis's purpose is to explain the most common types of bacteria spread in ruminants.Mothur is the tool we used to build this visualizaion.
+![mothur_RGB](https://github.com/Galal36/Metagenomics-analysis-DNA-/assets/109338500/c0a0324c-5dda-4821-ad21-9c59cc854ebb)
+
 The objective of this metagenomics analysis is to elucidate the prevailing bacterial species found in ruminant populations. By utilizing fasta or fastaq files containing DNA sequences, it is possible to generate an initial broad overview of the bacterial composition. This is a presentation using some programming language (used, like R and Python) that shows the development of methane in Protozoa type.
 ![MethaneFoeProtozoa](https://github.com/Galal36/Metagenomics-analysis-DNA-/assets/109338500/02dac6ef-92ad-4173-a92a-e04f223eef6e)
 
